@@ -1,7 +1,7 @@
 <p>
 <h1 align="center">SACD<font color="#b07219">j</font></h1>
 <h6 align="right">v1.1.3</h6>
-<h5 align="center">Fater super-resolution fluctuation imaging: SACD reconstruction with FIJI/ImageJ.</h5>
+<h5 align="center">Fater super-resolution fluctuation imaging: SACD reconstruction with MATLAB.</h5>
 </p>
 <br>
 
@@ -10,7 +10,7 @@
 <p>
 
 
-This repository is for Simplified SACD (w/o sparse deconvolution) and will be in continued development. The full SACD can be found in [SACDM](https://github.com/WeisongZhao/SACD2). If you find this useful, please cite the paper. <b>Weisong Zhao et al. SACD: Fater super-resolution fluctuation imaging,  X(X), XXX-XXX (2021)</b>
+This repository is for SACD reconstruction and will be in continued development. If you find this useful, please cite the paper. <b>Weisong Zhao et al. SACD: Fater super-resolution fluctuation imaging,  X(X), XXX-XXX (2021)</b>
 <br>
 <br>
 <br>
@@ -46,5 +46,5 @@ If you want to reproduce the results of SACD publication, the <b>SACDM</b> (Matl
 - Add sparse deconvolution.
 </details>
 
-## Open source [SACDj](https://github.com/WeisongZhao/SACDj)
+## Open source [SACDj](https://github.com/WeisongZhao/SACDm)
 This program is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version. This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License for more details.
