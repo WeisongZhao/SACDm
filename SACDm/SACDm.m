@@ -1,12 +1,65 @@
 function SACDresult = SACDm(imgstack, varargin)
-
-%pixel     pixel size {example:65*10^-9}
-%wavelength    wavelength {example:532*10^-9}
-%iter1      Maximum deconvolution iterations {example:20}
-%mag      magnification times  {example:8}
-%scale    PSF^2 {example:2}
-%order     Auto-correlation cumulant order  {example:2}
-
+%***************************************************************************
+% SACD
+%***************************************************************************
+% function [SACDresult] = SACDm(imgstack,varargin)
+%-----------------------------------------------
+%Source code for SACD reconstruction
+%SRstack    input data to be evaluated
+%varargin   configurations
+%------------------------------------------------
+%***************************Configurations***********************************
+%-------image property----------
+% pixel       |  pixel size in nanometer {default: 65}
+% wavelength  |  emission wavelength in nanometer {default: 525}
+% NA          |  numerical aperture of objective {default: 1.3}
+%-------SACD recon.----------
+% iter1       |  pre RL iteration time {default: 10}
+% iter2       |  post RL iteration time {default: 7}
+% ACorder     |  cumulant order {default: 2}
+% scale       |  psf scale for post RL deconv. {default: =ACorder}
+% subfactor   |  subtraction factor for cumulant{default: 0.8}
+% subfactor   |  SNR(or fluctuation) low: 0.5; medium: 0.8; high: 1;
+%-------Advanced settings----------
+% psf         |  user input psf {default: []};
+% resolution  |  system resolution for psf calculation {default: []};
+% ifregistration | if need registration before SACD recon. {default: false};
+% ifbackground   | if need background subtraction before SACD recon. {default: false};
+% backgroundfactor | background weight, larger means weaker background {default: 2};
+% ifsparsedecon  | if need post sparse deconv.. {default: false};
+% fidelity       | fidelity weight for sparse deconv.. {default: 100};
+% tcontinuity    | t-axial continuity weight for sparse deconv.. {default: 100};
+% sparsity       | sparsity weight for sparse deconv.. {default: 100};
+%***************************************************************************
+%Output:
+%  Super-resolution image -> SACD result 
+%***************************************************************************
+% Written by WeisongZhao @ zhaoweisong950713@163.com
+% Version 0.2.0
+% if any bugs is found, please just email me or put an issue on the github.
+%***************************************************************************
+% https://github.com/WeisongZhao/SACDm/
+% *********************************************************************************
+% It is a part of publication:
+% Weisong Zhao et al. SACD: enhancing detectable fluctuation for high-throughput 
+% and four-dimensional live-cell super-resolution imaging,
+% Nature Methods, X, XXX-XXX (2022).
+% *********************************************************************************
+%    Copyright 2019~2022 Weisong Zhao et al.
+%
+%    This program is free software: you can redistribute it and/or modify
+%    it under the terms of the Open Data Commons Open Database License v1.0.
+%
+%    This program is distributed in the hope that it will be useful,
+%    but WITHOUT ANY WARRANTY; without even the implied warranty of
+%    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+%    Open Data Commons Open Database License for more details.
+%
+%    You should have received a copy of the
+%    Open Data Commons Open Database License
+%    along with this program.  If not, see:
+%    <https://opendatacommons.org/licenses/odbl/>.
+%***************************************************************************
 params.pixel = 65;
 params.wavelength = 525;
 params.NA = 1.3;
