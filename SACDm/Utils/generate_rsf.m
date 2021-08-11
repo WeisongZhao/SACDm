@@ -1,4 +1,7 @@
 function y=generate_rsf(gama,n)
+if nargin < 2 || isempty(n)
+    n = ceil(gama./sqrt(8*log(2)) * sqrt(-2 * log(0.0002))) + 1;
+end
 sigma = gama./sqrt(8*log(2));
 kernelRadius = min(ceil(sigma * sqrt(-2 * log(0.0002)))+1,floor(n/2));
 ii=-kernelRadius:kernelRadius;
