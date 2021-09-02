@@ -54,6 +54,7 @@ If you are not a MATLAB user, you can have a try on the imagej version of SACD: 
 
 <details>
 <summary><b>Plans</b></summary>
+
 - Full FRC assisted SACD;
 - Another type of interpolation, 3D XC type calculation will be added.
 </details>
