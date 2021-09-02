@@ -20,7 +20,7 @@
 <p> -->
 
 <p>
-<img src='./img/MATLAB.jpg' align="left" width=120>
+<img src='./imgs/MATLAB.jpg' align="left" width=120>
 </p>
 
 This repository is for SACD reconstruction and is distributed as accompanying software for publication: [Weisong Zhao et al. Enhancing detectable fluorescence fluctuation for fast high-throughput and four-dimensional live-cell super-resolution imaging, Science, X, XXX-XXX (2021)](https://www.science.org/). Please cite PANEL in your publications, if it helps your research.
