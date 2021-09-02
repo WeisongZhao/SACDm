@@ -41,11 +41,11 @@ function SACDresult = SACDm(imgstack, varargin)
 % https://github.com/WeisongZhao/SACDm/
 % *********************************************************************************
 % It is a part of publication:
-% Weisong Zhao et al. SACD: enhancing detectable fluctuation for high-throughput 
+% Weisong Zhao et al. Enhancing detectable fluctuation for fast high-throughput 
 % and four-dimensional live-cell super-resolution imaging,
-% Nature Methods, X, XXX-XXX (2022).
+% Science, X, XXX-XXX (2021).
 % *********************************************************************************
-%    Copyright 2019~2022 Weisong Zhao et al.
+%    Copyright 2019~2021 Weisong Zhao et al.
 %
 %    This program is free software: you can redistribute it and/or modify
 %    it under the terms of the Open Data Commons Open Database License v1.0.
