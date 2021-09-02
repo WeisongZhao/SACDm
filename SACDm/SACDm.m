@@ -19,7 +19,7 @@ function SACDresult = SACDm(imgstack, varargin)
 % ACorder     |  cumulant order {default: 2}
 % scale       |  psf scale for post RL deconv. {default: =ACorder}
 % subfactor   |  subtraction factor for cumulant{default: 0.8}
-% subfactor   |  SNR(or fluctuation) low: 0.5; medium: 0.8; high: 1;
+% subfactor   |  SNR (or fluctuation) low: 0.5; medium: 0.8; high: 1;
 %-------Advanced settings----------
 % psf         |  user input psf {default: []};
 % resolution  |  system resolution for psf calculation {default: []};
@@ -28,8 +28,8 @@ function SACDresult = SACDm(imgstack, varargin)
 % backgroundfactor | background weight, larger means weaker background {default: 2};
 % ifsparsedecon  | if need post sparse deconv.. {default: false};
 % fidelity       | fidelity weight for sparse deconv.. {default: 100};
-% tcontinuity    | t-axial continuity weight for sparse deconv.. {default: 100};
-% sparsity       | sparsity weight for sparse deconv.. {default: 100};
+% tcontinuity    | t-axial continuity weight for sparse deconv.. {default: 0.1};
+% sparsity       | sparsity weight for sparse deconv.. {default: 1};
 %***************************************************************************
 %Output:
 %  Super-resolution image -> SACD result 
