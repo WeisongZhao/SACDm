@@ -2,7 +2,7 @@ clear;clc;close all;
 %% Involve SACDm
 addpath(genpath('./SACDm'));
 %% Read data
-imgstack = imreadstack('561 100%scmos-30ms-C1_2020-09-13_2-test-1.tif');
+imgstack = imreadstack('561 scmos-30ms-C1_2020-09-13_2-ROI.tif');
 %% SACD recon
 SRimg = SACDm(imgstack,'pixel',65,'NA',1.3,'wavelength',561);
 %% Visualization
