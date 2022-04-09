@@ -23,7 +23,7 @@
 <img src='./imgs/MATLAB.jpg' align="left" width=120>
 </p>
 
-This repository is for SACD reconstruction and is distributed as accompanying software for publication: [Weisong Zhao et al. Enhancing detectable fluorescence fluctuation for fast high-throughput and four-dimensional live-cell super-resolution imaging, Science, X, XXX-XXX (2021)](https://www.science.org/). Please cite SACD in your publications, if it helps your research.
+This repository is for SACD reconstruction and is distributed as accompanying software for publication: [Weisong Zhao et al. High-throughput and four-dimensional live-cell super-resolution imaging, XXX (2022)](https://www.science.org/). Please cite SACD in your publications, if it helps your research.
 <br>
 <br>
 <br>
@@ -41,6 +41,21 @@ This repository is for SACD reconstruction and is distributed as accompanying so
 <img src='./imgs/Fig1.png' align="center" width=900>
 </p>
 
+## Instruction
+
+- The SACD reconstruction requires resolution-related parameter to execute deconvolution, you can give it with objective-NA; wavelength (nm); and pixel-size (nm), or just provide resolution and pixel-size, or feed it with your own PSF. Here are 3 examples:
+```python
+SRimg = SACDm(imgstack,'pixel',65,'NA',1.3,'wavelength',561);
+SRimg = SACDm(imgstack,'pixel',65,'resolution',250);
+SRimg = SACDm(imgstack,'psf',ownpsf);
+```
+
+- Please try help to get the API.
+```python
+addpath(genpath('SACDm')); 
+help SACDm
+```
+
 
 ## Declaration
 This repository contains the MATLAB source code for <b>SACD</b> .  
@@ -53,11 +68,21 @@ If you are not a MATLAB user, you can have a try on the imagej version of SACD: 
 <br>
 <br>
 
+## Version
+- v0.2.0 Sparse-SACD reconstruction core
+- v0.1.0 SACD reconstruction core
+
+## Related links: 
+- ImageJ plug-in version of SACD: [SACDj](https://github.com/WeisongZhao/SACDj)
+- **Some fancy results and comparisons:** [my website](https://weisongzhao.github.io/MyWeb2/portfolio-4-col.html)
+- **Preprint:** [COMING SOON...](#)
+- **Reference:**
+
 <details>
 <summary><b>Plans</b></summary>
 
 - Full FRC assisted SACD;
-- Another type of interpolation, 3D XC type calculation will be added.
+- Full 3D-SACD;
 - GPU acceleration.
 </details>
 
