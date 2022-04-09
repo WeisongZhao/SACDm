@@ -22,8 +22,7 @@
 <p>
 <img src='./imgs/MATLAB.jpg' align="left" width=120>
 </p>
-
-This repository is for SACD reconstruction and is distributed as accompanying software for publication: [Weisong Zhao et al. High-throughput and four-dimensional live-cell super-resolution imaging, XXX (2022)](https://www.science.org/). Please cite SACD in your publications, if it helps your research.
+This repository is for SACD reconstruction, and it will be in continued development. It is distributed as accompanying software for publication: [Weisong Zhao et al. High-throughput and four-dimensional live-cell super-resolution imaging, XXX (2022)](https://www.science.org/). Please cite SACD in your publications, if it helps your research.
 <br>
 <br>
 <br>
@@ -45,9 +44,9 @@ This repository is for SACD reconstruction and is distributed as accompanying so
 
 - The SACD reconstruction requires resolution-related parameter to execute deconvolution, you can give it with objective-NA; wavelength (nm); and pixel-size (nm), or just provide resolution and pixel-size, or feed it with your own PSF. Here are 3 examples:
 ```python
-SRimg = SACDm(imgstack,'pixel',65,'NA',1.3,'wavelength',561);
-SRimg = SACDm(imgstack,'pixel',65,'resolution',250);
-SRimg = SACDm(imgstack,'psf',ownpsf);
+SRimg = SACDm(imgstack, 'pixel', 65, 'NA', 1.3, 'wavelength', 561);
+SRimg = SACDm(imgstack, 'pixel', 65, 'resolution', 250);
+SRimg = SACDm(imgstack, 'psf', ownpsf);
 ```
 
 - Please try help to get the API.
