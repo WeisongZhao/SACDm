@@ -14,6 +14,7 @@ function SACDresult = SACDm(imgstack, varargin)
 % wavelength  |  emission wavelength in nanometer {default: 525}
 % NA          |  numerical aperture of objective {default: 1.3}
 %-------SACD recon.----------
+% mag       |  Fourier interpolation times {default: 2}
 % iter1       |  pre RL iteration time {default: 10}
 % iter2       |  post RL iteration time {default: 7}
 % ACorder     |  cumulant order {default: 2}
