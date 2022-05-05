@@ -23,7 +23,7 @@
 <img src='./imgs/MATLAB.jpg' align="left" width=120>
 </p>
 
-This repository is for SACD reconstruction, and it will be in continued development. It is distributed as accompanying software for publication: [Weisong Zhao et al. High-throughput and four-dimensional live-cell super-resolution imaging, XXX (2022)](https://www.nature.com). Please cite SACD in your publications, if it helps your research.
+This repository is for SACD reconstruction, and it will be in continued development. It is distributed as accompanying software for publication: [Weisong Zhao et al. High-throughput add-on super-resolution by enhancing detectable fluctuation, XXX (2022)](https://www.nature.com). Please cite SACD in your publications, if it helps your research.
 <br>
 <br>
 <br>
