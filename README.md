@@ -1,6 +1,6 @@
 
 [![website](https://img.shields.io/badge/website-up-green.svg)](https://weisongzhao.github.io/SACDm/)
-[![paper](https://img.shields.io/badge/paper-science-black.svg)](https://www.science.org/)
+[![paper](https://img.shields.io/badge/paper-nature-black.svg)](https://www.nature.com)
 [![Github commit](https://img.shields.io/github/last-commit/WeisongZhao/SACDm)](https://github.com/WeisongZhao/SACDm/)
 [![License](https://img.shields.io/github/license/WeisongZhao/SACDm)](https://github.com/WeisongZhao/SACDm/blob/master/LICENSE/)<br>
 [![Twitter](https://img.shields.io/twitter/follow/weisong_zhao?label=weisong)](https://twitter.com/weisong_zhao/status/1370308101690118146)
@@ -23,7 +23,7 @@
 <img src='./imgs/MATLAB.jpg' align="left" width=120>
 </p>
 
-This repository is for SACD reconstruction, and it will be in continued development. It is distributed as accompanying software for publication: [Weisong Zhao et al. High-throughput and four-dimensional live-cell super-resolution imaging, XXX (2022)](https://www.science.org). Please cite SACD in your publications, if it helps your research.
+This repository is for SACD reconstruction, and it will be in continued development. It is distributed as accompanying software for publication: [Weisong Zhao et al. High-throughput and four-dimensional live-cell super-resolution imaging, XXX (2022)](https://www.nature.com). Please cite SACD in your publications, if it helps your research.
 <br>
 <br>
 <br>
