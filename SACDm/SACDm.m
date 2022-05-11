@@ -42,8 +42,8 @@ function SACDresult = SACDm(imgstack, varargin)
 % https://github.com/WeisongZhao/SACDm/
 % *********************************************************************************
 % It is a part of publication:
-% Weisong Zhao et al. High-throughput and four-dimensional
-% live-cell super-resolution imaging, Science (2022).
+% Weisong Zhao et al. High-throughput add-on super-resolution by
+% enhancing detectable fluctuation, Nature Methods (2022).
 % *********************************************************************************
 %    Copyright 2019~2022 Weisong Zhao et al.
 %

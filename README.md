@@ -1,6 +1,6 @@
 
 [![website](https://img.shields.io/badge/website-up-green.svg)](https://weisongzhao.github.io/SACDm/)
-[![paper](https://img.shields.io/badge/paper-nature-black.svg)](https://www.nature.com)
+[![paper](https://img.shields.io/badge/paper-nature%20methods-black.svg)](https://www.nature.com)
 [![Github commit](https://img.shields.io/github/last-commit/WeisongZhao/SACDm)](https://github.com/WeisongZhao/SACDm/)
 [![License](https://img.shields.io/github/license/WeisongZhao/SACDm)](https://github.com/WeisongZhao/SACDm/blob/master/LICENSE/)<br>
 [![Twitter](https://img.shields.io/twitter/follow/weisong_zhao?label=weisong)](https://twitter.com/weisong_zhao/status/1370308101690118146)
@@ -63,6 +63,8 @@ SRimg2vis = SRimg.^0.5;
 SRimg2vis(SRimg2vis < order * background * max(SRimg2vis(:))) = 0;
 figure(2);imshow(SRimg2vis, [], 'colormap', hot)
 ```
+
+Two demos can also be found at the [SACDj release v1.1.3](https://github.com/WeisongZhao/SACDj/releases/tag/v1.1.3).
 
 
 ## Declaration
