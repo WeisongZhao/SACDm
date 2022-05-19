@@ -15,8 +15,8 @@ function SACDresult = SACDm(imgstack, varargin)
 % NA          |  numerical aperture of objective {default: 1.3}
 %-------SACD recon.----------
 % mag       |  Fourier interpolation times {default: 2}
-% iter1       |  pre RL iteration time {default: 10}
-% iter2       |  post RL iteration time {default: 7}
+% iter1       |  pre RL iteration time {default: 7}
+% iter2       |  post RL iteration time {default: 8}
 % ACorder     |  cumulant order {default: 2}
 % scale       |  psf scale for post RL deconv. {default: =ACorder}
 % subfactor   |  subtraction factor for cumulant{default: 0.8}
@@ -64,8 +64,8 @@ params.pixel = 65;
 params.wavelength = 525;
 params.NA = 1.3;
 params.mag = 2;
-params.iter1 = 10;
-params.iter2 = 7;
+params.iter1 = 7;
+params.iter2 = 8;
 
 params.subfactor = 0.8;
 params.ACorder = 2;
