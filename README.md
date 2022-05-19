@@ -2,7 +2,7 @@
 [![website](https://img.shields.io/badge/website-up-green.svg)](https://weisongzhao.github.io/SACDm/)
 [![paper](https://img.shields.io/badge/paper-nature%20methods-black.svg)](https://www.nature.com)
 [![Github commit](https://img.shields.io/github/last-commit/WeisongZhao/SACDm)](https://github.com/WeisongZhao/SACDm/)
-[![License](https://img.shields.io/github/license/WeisongZhao/SACDm)](https://github.com/WeisongZhao/SACDm/blob/master/LICENSE/)<br>
+[![License](https://img.shields.io/github/license/WeisongZhao/SACDm)](https://github.com/WeisongZhao/SACDm/blob/master/LICENSE.txt)<br>
 [![Twitter](https://img.shields.io/twitter/follow/weisong_zhao?label=weisong)](https://twitter.com/weisong_zhao/status/1370308101690118146)
 [![GitHub watchers](https://img.shields.io/github/watchers/WeisongZhao/SACDm?style=social)](https://github.com/WeisongZhao/SACDm/) 
 [![GitHub stars](https://img.shields.io/github/stars/WeisongZhao/SACDm?style=social)](https://github.com/WeisongZhao/SACDm/) 
