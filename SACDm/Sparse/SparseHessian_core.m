@@ -26,9 +26,9 @@
 % *********************************************************************************
 % It is a part of publication:
 % Weisong Zhao et al. Sparse deconvolution improves the resolution of live-cell
-% super-resolution fluorescence microscopy , Nature Biotechnology, X, XXX-XXX (2021).
+% super-resolution fluorescence microscopy , Nature Biotechnology, 40, 606-617 (2022).
 % *********************************************************************************
-%    Copyright 2018~2021 Weisong Zhao et al.
+%    Copyright 2018~2022 Weisong Zhao et al.
 %
 %    This program is free software: you can redistribute it and/or modify
 %    it under the terms of the Open Data Commons Open Database License v1.0.

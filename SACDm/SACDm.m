@@ -44,7 +44,7 @@ function SACDresult = SACDm(imgstack, varargin)
 % It is a part of publication:
 % Weisong Zhao et al. Enhancing detectable fluorescence fluctuation for 
 % high-throughput and four-dimensional live-cell super-resolution imaging
-% , Nature Biotechnology (2022).
+% , Nature Photonics (2022).
 % *********************************************************************************
 %    Copyright 2019~2022 Weisong Zhao et al.
 %

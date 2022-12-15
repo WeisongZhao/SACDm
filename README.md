@@ -1,6 +1,6 @@
 
 [![website](https://img.shields.io/badge/website-up-green.svg)](https://weisongzhao.github.io/SACDm/)
-[![paper](https://img.shields.io/badge/paper-nature%20biotechnol.-black.svg)](https://www.nature.com)
+[![paper](https://img.shields.io/badge/paper-nature%20photon.-black.svg)](https://www.nature.com)
 [![Github commit](https://img.shields.io/github/last-commit/WeisongZhao/SACDm)](https://github.com/WeisongZhao/SACDm/)
 [![License](https://img.shields.io/github/license/WeisongZhao/SACDm)](https://github.com/WeisongZhao/SACDm/blob/master/LICENSE.txt)<br>
 [![Twitter](https://img.shields.io/twitter/follow/weisong_zhao?label=weisong)](https://twitter.com/weisong_zhao/status/1370308101690118146)
