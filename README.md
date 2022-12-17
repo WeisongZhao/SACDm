@@ -85,8 +85,8 @@ If you are not a MATLAB user, you can have a try on the imagej version of SACD: 
 ## Related links: 
 - ImageJ plug-in version of SACD: [SACDj](https://github.com/WeisongZhao/SACDj)
 - **Some fancy results and comparisons:** [my website](https://weisongzhao.github.io/MyWeb2/portfolio-4-col.html)
-- **Preprint:** [COMING SOON...](#)
-- **Reference:**
+- **Preprint:** [Weisong Zhao et al. Enhancing detectable fluorescence fluctuation for high-throughput and four-dimensional live-cell super-resolution imaging, bioRxiv (2022).](https://doi.org/10.1101/2022.12.12.520072)
+- **Reference:** [COMING SOON](#)
 
 <details>
 <summary><b>Plans</b></summary>
