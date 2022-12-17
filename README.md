@@ -59,7 +59,7 @@ help SACDm
 - Regarding the SACD SR frame visualization, it can be scaled with a gamma correction according to the bSOFI setting.
 ```python
 background = 0.02; order = 2;
-SRimg2vis = SRimg.^0.5;
+SRimg2vis = real(SRimg.^0.5);
 SRimg2vis(SRimg2vis < order * background * max(SRimg2vis(:))) = 0;
 figure(2);imshow(SRimg2vis, [], 'colormap', hot)
 ```
