@@ -147,7 +147,10 @@ datadeconl=fourierInterpolation(datadecon,[params.mag,params.mag,1],'lateral');
 datadeconl(datadeconl < 0) = 0;
 %% AC cumulant
 disp(['Cumulant calculation...'])
-datadeconl=abs(datadeconl - params.subfactor * mean(datadeconl,3));
+sub4datadeconl = params.subfactor * mean(datadeconl,3);
+for i = 1:size(datadeconl,3)
+    datadeconl(:,:,i) = abs(datadeconl(:,:,i) - sub4datadeconl);
+end
 cum = abs(cumulant(datadeconl,params.ACorder));
 if params.ifsparsedecon
     disp(['Post sparsity-continuity reconstruction...'])
