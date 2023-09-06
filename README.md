@@ -27,6 +27,8 @@
 <br>
 
 This repository is for SACD reconstruction, and it will be in continued development. It is distributed as accompanying software for publication: [Weisong Zhao et al. Enhanced detection of fluorescence fluctuation for high-throughput super-resolution imaging, Nature Photonics (2023)](https://doi.org/10.1038/s41566-023-01234-9). Please cite SACD in your publications, if it helps your research.
+
+<br>
 <br>
 <br>
 <br>
