@@ -5,7 +5,7 @@
 [![releases](https://img.shields.io/badge/release-v0.2.0-FF6600.svg)](https://github.com/WeisongZhao/SACDm/releases/tag/v0.2.0/)<br>
 [![paper](https://img.shields.io/badge/paper-nature%20photon.-black.svg)](https://doi.org/10.1038/s41566-023-01234-9)
 [![post](https://img.shields.io/badge/post-behind%20the%20paper-black.svg)](https://engineeringcommunity.nature.com/posts/super-resolution-made-easier)<br>
-[![Twitter](https://img.shields.io/twitter/follow/weisong_zhao?label=weisong)](https://twitter.com/weisong_zhao/status/1370308101690118146)
+[![Twitter](https://img.shields.io/twitter/follow/weisong_zhao?label=weisong)](https://twitter.com/search?q=%23SACDimaging&src=hashtag_click)
 [![GitHub watchers](https://img.shields.io/github/watchers/WeisongZhao/SACDm?style=social)](https://github.com/WeisongZhao/SACDm/) 
 [![GitHub stars](https://img.shields.io/github/stars/WeisongZhao/SACDm?style=social)](https://github.com/WeisongZhao/SACDm/) 
 [![GitHub forks](https://img.shields.io/github/forks/WeisongZhao/SACDm?style=social)](https://github.com/WeisongZhao/SACDm/)
