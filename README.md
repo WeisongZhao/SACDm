@@ -36,7 +36,7 @@ This repository is for SACD reconstruction, and it will be in continued developm
 
 The related FIJI/ImageJ plug-in version can be found at [HERE](https://github.com/WeisongZhao/SACDj/)
 
-You can also find some fancy results and comparisons on my [website](https://weisongzhao.github.io/MyWeb2/portfolio-4-col.html).
+You can also find some fancy results and comparisons on my [website](https://weisongzhao.github.io/home/portfolio-4-col.html#SACD).
 
 If you are interested in our work, I wrote a [#behind_the_paper](https://engineeringcommunity.nature.com/posts/super-resolution-made-easier) post for further reading.
 
@@ -89,7 +89,7 @@ If you are not a MATLAB user, you can have a try on the imagej version of SACD: 
 
 ## Related links: 
 - ImageJ plug-in version of SACD: [SACDj](https://github.com/WeisongZhao/SACDj)
-- **Some fancy results and comparisons:** [my website](https://weisongzhao.github.io/MyWeb2/portfolio-4-col.html)
+- **Some fancy results and comparisons:** [my website](https://weisongzhao.github.io/home/portfolio-4-col.html#SACD)
 - **Preprint:** [Weisong Zhao et al. Enhancing detectable fluorescence fluctuation for high-throughput and four-dimensional live-cell super-resolution imaging, bioRxiv (2022).](https://doi.org/10.1101/2022.12.12.520072)
 - **Reference:** [Weisong Zhao et al. Enhanced detection of fluorescence fluctuation for high-throughput super-resolution imaging, Nature Photonics (2023)](https://doi.org/10.1038/s41566-023-01234-9)
 
